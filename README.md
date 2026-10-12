@@ -21,17 +21,17 @@ Program ini dibagi menjadi dua kelas utama:
 ### 1. Class `Person`
 Berfungsi sebagai model data atau wadah untuk merepresentasikan dan menyimpan atribut individual dari setiap orang yang dikelola dalam aplikasi.
 * **Atribut:**
-  * `String id` — Identitas unik data.
-  * `String nama` — Nama lengkap.
-  * `String tahunLahir` — Tahun kelahiran.
-  * `String kategori` — Status/kategori (Siswa, Mahasiswa, Dosen, dll).
-  * `String jenisKelamin` — Pilihan jenis kelamin.
+  * `String id` —> Identitas unik data.
+  * `String nama` —> Nama lengkap.
+  * `String tahunLahir` —> Tahun kelahiran.
+  * `String kategori` —> Status/kategori (Siswa, Mahasiswa, Dosen, dll).
+  * `String jenisKelamin` —> Pilihan jenis kelamin.
 * **Method:** Constructor, serta *Getter* dan *Setter* untuk masing-masing atribut.
 
 ### 2. Class `PeopleMenu` extends `JFrame`
 Berfungsi untuk menjadikan class tersebut sebagai jendela aplikasi desktop yang menampung seluruh komponen antarmuka grafis sekaligus mengatur logika programnya.
 * **Fungsi Utama:**
-  * `insertData()` -> Menambahkan data baru ke dalam list.
+  * `insertData()` —> Menambahkan data baru ke dalam list.
   * `updateData()` –> Memperbarui data objek yang sedang dipilih pada indeks tabel.
   * `deleteData()` –> Menghapus data dari list setelah konfirmasi.
   * `clearForm()` –> Mengosongkan input form, mereset pilihan ComboBox, dan mengaktifkan kembali field ID.
