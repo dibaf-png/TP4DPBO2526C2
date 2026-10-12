@@ -14,7 +14,7 @@ Aplikasi ini menyediakan 4 fungsi utama untuk pengoperasian data:
 
 ---
 
-## Struktur Kelas (Class Structure)
+## Struktur Class
 
 Program ini dibagi menjadi dua kelas utama:
 
