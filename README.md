@@ -60,18 +60,53 @@ Antarmuka dibangun menggunakan **Java Swing** dengan rincian komponen visual seb
 
 ---
 
+## Alur Program 
+
+**1. Tampilan Utama**
+Tampilan utama aplikasi berupa jendela desktop (PeopleMenu) yang menyajikan formulir input data diri serta tabel ringkasan. Komponen yang tersedia meliputi:
+
+- ID: Kolom teks (JTextField) untuk mengisikan kode unik atau nomor identitas pengguna.
+
+- Nama: Kolom teks (JTextField) untuk mengisikan nama lengkap.
+
+- Tahun Lahir: Kolom teks (JTextField) untuk mengisikan tahun kelahiran.
+
+- Kategori: Menu pilihan berlipat (dropdown / JComboBox) untuk menentukan status seperti Siswa, Mahasiswa, atau Dosen.
+
+- Jenis Kelamin: Menu pilihan berlipat (dropdown / JComboBox) untuk memilih jenis kelamin (Laki-laki / Perempuan).
+
+- Tombol Aksi: Terdiri dari 4 tombol operasional utama (Add, Update, Delete, dan Cancel).
+
+- Tabel Data: Terletak di bagian bawah form untuk menampilkan seluruh daftar orang yang tersimpan di memori secara otomatis dan terstruktur.
+
+**2. Penambahan Data Baru (Add)**
+Pengguna dapat mengisikan seluruh data pada kolom formulir, lalu menekan tombol Add. Program akan memvalidasi kelengkapan isian; jika valid, data dibungkus menjadi objek Person, disimpan ke dalam memori (ArrayList), dan langsung dimunculkan pada tabel.
+
+**3. Perubahan Data (Update)**
+Setelah data dari tabel dimuat ke formulir, pengguna dapat memperbarui informasi (seperti Nama, Kategori, atau Jenis Kelamin), lalu menekan tombol Update. Sistem akan memperbarui nilai objek Person terkait di dalam daftar dan menyegarkan tampilan tabel.
+
+**4. Penghapusan Data (Delete)**
+Untuk menghapus data, pengguna memilih baris yang diinginkan lalu menekan tombol Delete. Sebelum data benar-benar dihapus dari daftar dan tabel, sistem akan memunculkan dialog konfirmasi (confirmation dialog) untuk memastikan tindakan.
+
+**5. Pembatalan & Reset Form (Cancel)**
+Pengguna dapat menekan tombol Cancel kapan saja untuk memanggil method clearForm(). Fitur ini berfungsi mengosongkan seluruh formulir, mengembalikan pilihan dropdown ke status awal, serta mengaktifkan kembali kolom ID untuk siap menerima input data baru.
+
+
+---
+
 ## Dokumentasi
 
 1. **Tambah Data**
 
    <img width="738" height="496" alt="tambah_data" src="https://github.com/user-attachments/assets/0b8eed97-ca12-430e-8450-452cee541bcb" />
 
-3. **Update Data**
+2. **Update Data**
 
    <img width="736" height="515" alt="update_data" src="https://github.com/user-attachments/assets/f8dfc718-6f7a-452e-a536-8ad2dfa2146f" />
 
-5. **Delete Data**
+3. **Delete Data**
 
    <img width="735" height="498" alt="delete_data" src="https://github.com/user-attachments/assets/74d750f7-4852-4865-a1ca-f8b11c440f7e" />
 
+---
 
