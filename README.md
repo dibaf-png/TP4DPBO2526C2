@@ -63,35 +63,32 @@ Antarmuka dibangun menggunakan **Java Swing** dengan rincian komponen visual seb
 ## Alur Program 
 
 **1. Tampilan Utama**
+
 Tampilan utama aplikasi berupa jendela desktop (PeopleMenu) yang menyajikan formulir input data diri serta tabel ringkasan. Komponen yang tersedia meliputi:
 
-- ID: Kolom teks (JTextField) untuk mengisikan kode unik atau nomor identitas pengguna.
-
-- Nama: Kolom teks (JTextField) untuk mengisikan nama lengkap.
-
-- Tahun Lahir: Kolom teks (JTextField) untuk mengisikan tahun kelahiran.
-
-- Kategori: Menu pilihan berlipat (dropdown / JComboBox) untuk menentukan status seperti Siswa, Mahasiswa, atau Dosen.
-
-- Jenis Kelamin: Menu pilihan berlipat (dropdown / JComboBox) untuk memilih jenis kelamin (Laki-laki / Perempuan).
-
+- `ID`: Kolom teks (JTextField) untuk mengisikan kode unik atau nomor identitas pengguna.
+- `Nama`: Kolom teks (JTextField) untuk mengisikan nama lengkap.
+- `Tahun Lahir`: Kolom teks (JTextField) untuk mengisikan tahun kelahiran.
+- `Kategori`: Menu pilihan berlipat (dropdown / JComboBox) untuk menentukan status seperti Siswa, Mahasiswa, atau Dosen.
+- `Jenis Kelamin`: Menu pilihan berlipat (dropdown / JComboBox) untuk memilih jenis kelamin (Laki-laki / Perempuan).
 - Tombol Aksi: Terdiri dari 4 tombol operasional utama (Add, Update, Delete, dan Cancel).
-
 - Tabel Data: Terletak di bagian bawah form untuk menampilkan seluruh daftar orang yang tersimpan di memori secara otomatis dan terstruktur.
 
 **2. Penambahan Data Baru (Add)**
+
 Pengguna dapat mengisikan seluruh data pada kolom formulir, lalu menekan tombol Add. Program akan memvalidasi kelengkapan isian; jika valid, data dibungkus menjadi objek Person, disimpan ke dalam memori (ArrayList), dan langsung dimunculkan pada tabel.
 
 **3. Perubahan Data (Update)**
+
 Setelah data dari tabel dimuat ke formulir, pengguna dapat memperbarui informasi (seperti Nama, Kategori, atau Jenis Kelamin), lalu menekan tombol Update. Sistem akan memperbarui nilai objek Person terkait di dalam daftar dan menyegarkan tampilan tabel.
 
 **4. Penghapusan Data (Delete)**
+
 Untuk menghapus data, pengguna memilih baris yang diinginkan lalu menekan tombol Delete. Sebelum data benar-benar dihapus dari daftar dan tabel, sistem akan memunculkan dialog konfirmasi (confirmation dialog) untuk memastikan tindakan.
 
-**5. Pembatalan & Reset Form (Cancel)**
+**5. Pembatalan dan Reset Form (Cancel)**
 
 Pengguna dapat menekan tombol Cancel kapan saja untuk memanggil method clearForm(). Fitur ini berfungsi mengosongkan seluruh formulir, mengembalikan pilihan dropdown ke status awal, serta mengaktifkan kembali kolom ID untuk siap menerima input data baru.
-
 
 ---
 
