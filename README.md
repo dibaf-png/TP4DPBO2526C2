@@ -31,11 +31,11 @@ Berfungsi sebagai model data atau wadah untuk merepresentasikan dan menyimpan at
 ### 2. Class `PeopleMenu` extends `JFrame`
 Berfungsi untuk menjadikan class tersebut sebagai jendela aplikasi desktop yang menampung seluruh komponen antarmuka grafis sekaligus mengatur logika programnya.
 * **Fungsi Utama:**
-  * `insertData()` – Menambahkan data baru ke dalam list.
-  * `updateData()` – Memperbarui data objek yang sedang dipilih pada indeks tabel.
-  * `deleteData()` – Menghapus data dari list setelah konfirmasi.
-  * `clearForm()` – Mengosongkan input form, mereset pilihan ComboBox, dan mengaktifkan kembali field ID.
-  * `setTable()` – Mengatur struktur kolom dan memperbarui isi baris tabel secara dinamis berdasarkan data list.
+  * `insertData()` -> Menambahkan data baru ke dalam list.
+  * `updateData()` –> Memperbarui data objek yang sedang dipilih pada indeks tabel.
+  * `deleteData()` –> Menghapus data dari list setelah konfirmasi.
+  * `clearForm()` –> Mengosongkan input form, mereset pilihan ComboBox, dan mengaktifkan kembali field ID.
+  * `setTable()` –> Mengatur struktur kolom dan memperbarui isi baris tabel secara dinamis berdasarkan data list.
 
 ---
 
