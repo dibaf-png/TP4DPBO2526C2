@@ -54,8 +54,8 @@ Antarmuka dibangun menggunakan **Java Swing** dengan rincian komponen visual seb
 * **`JComboBox` (`jenisKelaminComboBox`):** Menu pilihan *drop-down* untuk jenis kelamin (Laki-laki, Perempuan).
 * **`JTable` (`peopleTable`):** Menampilkan daftar keseluruhan data secara otomatis dalam format baris dan kolom lengkap dengan nomor urut.
 * **`JButton` (`addButton`):** Tombol untuk mengeksekusi penambahan data baru.
-* **`JButton` (`updateButton`):** Tombol untuk mengeksekusi perubahan data terpilih.
-* **`JButton` (`deleteButton`):** Tombol untuk mengeksekusi penghapusan data terpilih.
+* **`JButton` (`updateButton`):** Tombol untuk mengeksekusi perubahan data.
+* **`JButton` (`deleteButton`):** Tombol untuk mengeksekusi penghapusan data.
 * **`JButton` (`cancelButton`):** Tombol untuk membersihkan form dan mereset pilihan.
 
 ---
