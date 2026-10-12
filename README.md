@@ -1,5 +1,6 @@
 ## Janji
 
+Saya Farah Diba Nur Malinda dengan NIM 2502083 mengerjakan Tugas Praktikum 4 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 ---
 
@@ -18,7 +19,7 @@ Aplikasi ini menyediakan 4 fungsi utama untuk pengoperasian data:
 Program ini dibagi menjadi dua kelas utama:
 
 ### 1. Class `Person`
-Berfungsi sebagai cetak biru (*blueprint*) untuk merepresentasikan atribut individual dari setiap data.
+Berfungsi sebagai model data atau wadah untuk merepresentasikan dan menyimpan atribut individual dari setiap orang yang dikelola dalam aplikasi.
 * **Atribut:**
   * `String id` — Identitas unik data.
   * `String nama` — Nama lengkap.
@@ -28,7 +29,7 @@ Berfungsi sebagai cetak biru (*blueprint*) untuk merepresentasikan atribut indiv
 * **Method:** Constructor, serta *Getter* dan *Setter* untuk masing-masing atribut.
 
 ### 2. Class `PeopleMenu` extends `JFrame`
-Mengatur antarmuka pengguna berbasis GUI sekaligus menangani seluruh logika operasional aplikasi (event handling tombol, interaksi tabel, dan manipulasi `ArrayList`).
+Berfungsi untuk menjadikan class tersebut sebagai jendela aplikasi desktop yang menampung seluruh komponen antarmuka grafis sekaligus mengatur logika programnya.
 * **Fungsi Utama:**
   * `insertData()` – Menambahkan data baru ke dalam list.
   * `updateData()` – Memperbarui data objek yang sedang dipilih pada indeks tabel.
