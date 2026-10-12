@@ -89,6 +89,7 @@ Setelah data dari tabel dimuat ke formulir, pengguna dapat memperbarui informasi
 Untuk menghapus data, pengguna memilih baris yang diinginkan lalu menekan tombol Delete. Sebelum data benar-benar dihapus dari daftar dan tabel, sistem akan memunculkan dialog konfirmasi (confirmation dialog) untuk memastikan tindakan.
 
 **5. Pembatalan & Reset Form (Cancel)**
+
 Pengguna dapat menekan tombol Cancel kapan saja untuk memanggil method clearForm(). Fitur ini berfungsi mengosongkan seluruh formulir, mengembalikan pilihan dropdown ke status awal, serta mengaktifkan kembali kolom ID untuk siap menerima input data baru.
 
 
