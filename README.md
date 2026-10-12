@@ -96,7 +96,7 @@ Pengguna dapat menekan tombol Cancel kapan saja untuk memanggil method clearForm
 
 1. **Tambah Data**
 
-   <img width="738" height="496" alt="tambah_data" src="https://github.com/user-attachments/assets/0b8eed97-ca12-430e-8450-452cee541bcb" />
+   <img width="736" height="516" alt="tambah" src="https://github.com/user-attachments/assets/3d8e5b08-5e1b-40be-8064-5cdc170b8b55" />
 
 2. **Update Data**
 
